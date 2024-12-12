@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <h1 id="title"> 25th December 2024 Survey Form </h1>
+      <p id="description">This is a form for 25th December 2024 Christmas Participation</p>
+      <form id="survey-form">
+        <fieldset>
+          <label for="name-label" id="name-label"> Name: <input id="name" placeholder="Fill in your name" required></input></label>
+          <label for="email-label" id="email-label"> E-mail <input id="email"placeholder="Fill in your e-mail" type="email" required></input></label>
+          <label for="number-label" id="number-label"> Age: <input id="number"placeholder="Your age" type="number", min="12", max="120"></label>
+          <label for="job-label" id="job-label"> Occupation <input id="email"placeholder="Fill in your occupation" type="email" required></input></label>
+        </fieldset>
+        What's your favorite activity during Christmas?
+        <select id="dropdown">
+          <option>Dining with Family</option>
+          <option>Opening Giftboxes</option>
+          <option>Singing Choirs</option>
+        </select>
+        <label for="socks">I want socks</label>
+        <input type="radio" value="1" name="group-one">
+        I dont want socks
+        <input type="radio" value="1" name="group-one">
+        <label for="cookies"> I want cookies</label>
+        <input type="radio" value="2" name="group-two">
+        I dont want cookies
+        <input type="radio" value="2" name="group-two">
+        <label for="cakes">I want cakes</label>
+        <input type="radio"
+         value="3" name="group-three">
+         I dont want cakes
+        <input type="radio" value="3" name="group-three">
+        Skiing <input type="checkbox" value="1">
+       Video Games <input type="checkbox" value="2">
+        Do you have any comment or suggestion?
+        <textarea placeholder="Fill in your suggestion"> </textarea> 
+          <input type="submit" value="Submit" id="submit"/>
+      </form>
+    </body>
